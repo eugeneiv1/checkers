@@ -179,4 +179,12 @@ function moveTo(element, className, oldPlace) {
 }   
 
 
-// just changing/adding smth to test
+function moveTo(element, className, oldPlace) {
+    //element.append(makeChecker(className)); 
+    element.firstElementChild.replaceWith(makeChecker(className));
+    
+    let oldElement = document.querySelector(`[data-position = "${oldPlace}"]`);    
+    oldElement.firstElementChild.className = 'empty'
+    console.log(oldElement)
+    
+ }   
