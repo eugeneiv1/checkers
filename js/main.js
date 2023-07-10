@@ -178,7 +178,6 @@ function moveTo(element, className, oldPlace) {
    
 }   
 
-
 function moveTo(element, className, oldPlace) {
     //element.append(makeChecker(className)); 
     element.firstElementChild.replaceWith(makeChecker(className));
@@ -188,3 +187,4 @@ function moveTo(element, className, oldPlace) {
     console.log(oldElement)
     
  }   
+
