@@ -177,3 +177,6 @@ function moveTo(element, className, oldPlace) {
    console.log(oldElement)
    
 }   
+
+
+// just changing/adding smth to test
